@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZPASEVIGILA</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <HEADLEN>24</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>24</SCRLEN3>
+    <DDTEXT>SD: Guia de Carga -Facturacion Digital - Pase Vigilancia: GC</DDTEXT>
+    <REPTEXT>Pase Vigilancia</REPTEXT>
+    <SCRTEXT_S>Pase Vig.</SCRTEXT_S>
+    <SCRTEXT_M>Pase Vigilancia</SCRTEXT_M>
+    <SCRTEXT_L>Pase Vigilancia</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

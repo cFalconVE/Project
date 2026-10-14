@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZSD_DATE</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>CHAR20</DOMNAME>
+    <HEADLEN>12</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>07</SCRLEN2>
+    <SCRLEN3>12</SCRLEN3>
+    <DDTEXT>Fecha eventos del despacho</DDTEXT>
+    <REPTEXT>Fecha Evento</REPTEXT>
+    <SCRTEXT_S>Fe.Ev</SCRTEXT_S>
+    <SCRTEXT_M>Fec.Ev.</SCRTEXT_M>
+    <SCRTEXT_L>Fecha Evento</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

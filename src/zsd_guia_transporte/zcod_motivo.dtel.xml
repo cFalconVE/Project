@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZCOD_MOTIVO</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>CHAR10</DOMNAME>
+    <HEADLEN>16</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>08</SCRLEN2>
+    <SCRLEN3>13</SCRLEN3>
+    <DDTEXT>Código de Motivo</DDTEXT>
+    <REPTEXT>Código de Motivo</REPTEXT>
+    <SCRTEXT_S>Cod.Mot.</SCRTEXT_S>
+    <SCRTEXT_M>Cod.Mot.</SCRTEXT_M>
+    <SCRTEXT_L>Código Motivo</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

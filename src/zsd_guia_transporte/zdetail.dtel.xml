@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZDETAIL</ROLLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DOMNAME>CHAR100</DOMNAME>
+    <HEADLEN>19</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>09</SCRLEN2>
+    <SCRLEN3>19</SCRLEN3>
+    <DDTEXT>Detalle del Mensaje</DDTEXT>
+    <REPTEXT>Detalle del Mensaje</REPTEXT>
+    <SCRTEXT_S>Det.Men.</SCRTEXT_S>
+    <SCRTEXT_M>Det. Men.</SCRTEXT_M>
+    <SCRTEXT_L>Detalle del Mensaje</SCRTEXT_L>
+    <DTELMASTER>S</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

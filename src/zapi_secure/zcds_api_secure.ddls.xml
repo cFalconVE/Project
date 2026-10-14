@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DDLS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DDLS>
+    <DDLNAME>ZCDS_API_SECURE</DDLNAME>
+    <DDLANGUAGE>S</DDLANGUAGE>
+    <DDTEXT>Consulta Api asociada a los Servicios de API REST</DDTEXT>
+   </DDLS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

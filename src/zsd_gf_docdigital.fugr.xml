@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Function Group  Digital Document</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZSD_GF_DOCDIGITALTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZSD_GF_DOCDIGITAL</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZSD_FM_DOCDIGITAL</FUNCNAME>
+     <SHORT_TEXT>Function Module Digital Document</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_PROCESS</PARAMETER>
+       <TYP>C</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_TKNUM</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>TKNUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_TPLST</PARAMETER>
+       <TYP>TPLST</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IS_DATOS_GC</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>ZSD_ST_DATOS_GC</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>EV_PROCESS_RESULT</PARAMETER>
+       <TYP>STRING</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>EV_TECHNICAL_MESSAGE</PARAMETER>
+       <TYP>STRING</TYP>
+      </RSEXP>
+     </EXPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_TKNUM</PARAMETER>
+       <TYP>STANDARD TABLE</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_FBSTA</PARAMETER>
+       <DBSTRUCT>RSDSSELOPT</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_HEAD</PARAMETER>
+       <TYP>STANDARD TABLE</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_ITEMS</PARAMETER>
+       <TYP>STANDARD TABLE</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_OE_HEAD</PARAMETER>
+       <TYP>STANDARD TABLE</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_OE_ITEMS</PARAMETER>
+       <TYP>STANDARD TABLE</TYP>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>ET_MESSAGE</PARAMETER>
+       <TYP>STANDARD TABLE</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_PROCESS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_TKNUM</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_TPLST</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IS_DATOS_GC</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_PROCESS_RESULT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>EV_TECHNICAL_MESSAGE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_TKNUM</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_FBSTA</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_HEAD</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_ITEMS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_OE_HEAD</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_OE_ITEMS</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>ET_MESSAGE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
